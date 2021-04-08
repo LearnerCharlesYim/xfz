@@ -81,3 +81,4 @@ gulp.task("bs",function (done) {
 
 // 创建一个默认的任务
 gulp.task("default",gulp.parallel('bs','watch'));
+// gulp.task("default",gulp.parallel('watch'));
